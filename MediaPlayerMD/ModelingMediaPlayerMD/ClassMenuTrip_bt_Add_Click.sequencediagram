@@ -1,0 +1,910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="d804b4f7-4f18-4960-be2c-02f7123cebc8" name="ClassMenuTrip_bt_Add_Click" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="1b1fd0a0-2358-4d8b-a1b4-7eb173cc4cd9" name="ClassMenuTrip_bt_Add_Click" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="9688874c-ac1d-4284-be3f-cb7c2db3f027" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="c6e05a52-a8e3-4bed-8bfe-37a2e6dbecf7" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="bc7e8bb4-6500-4793-bc9f-a863076cc240" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e2158d26-1d71-45f3-bdcd-05072d31f4b1" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="b846cd31-c833-4821-a068-4acb83f2a142" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="9bd98322-ca17-4ab3-8666-12eac71d9845" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="67310259-d9bc-43ff-b5b5-699b9803164b" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="e5b6ec98-0677-4fb7-9ff9-64caa8a45215" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="eac9551a-c685-4ed3-9ad4-cd4ab6d8af69" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="7c3aeb8d-ac98-4a34-a72b-83822c7cb907" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="0f62e9e0-31a7-45d0-a0b7-9110a3c3f1ca" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="78bd2b33-929c-4186-b4c4-e22496530bc6" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="72dea7e3-4dc6-409d-8d38-22262cfbb208" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="ca9b3927-9a57-4f12-a19c-09b6655f063f" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="701e13d7-2f44-4103-9543-35166634811d" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="1895ecb1-e351-46ad-b956-b685bc681a6d" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="2dcbfd1a-5262-4f6e-a50d-84b084a79768" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="b26dcdae-4d6a-4ee7-85b7-78d9491f7f0e" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="c2893e88-4623-4bba-b812-fd2873cc7935" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="e798df71-8179-4df9-afa0-cccdc999527e" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="3dabf8c9-826a-46d4-adab-ac01a8b983ab" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="14264397-7e26-43dd-9f8b-aefce1259128" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="d651fe05-adfb-47c3-9ad6-a382a8531eda" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="e1fe467e-e3ca-4301-ae62-03348e291e03" LastKnownName="OperandOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="bc7e8bb4-6500-4793-bc9f-a863076cc240" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="38103ccf-8610-4083-968f-feded7a58aa7" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="c2fd877c-7c0a-4fe0-9737-b50f7a057cd6" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="e2158d26-1d71-45f3-bdcd-05072d31f4b1" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <combinedFragment Id="858845f9-d15a-476f-bd01-760508fc696a" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="If">
+            <coveredLifelines>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="ab7d114d-86f3-4f2b-8ab0-174f104c95a8" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                  <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                  <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                  <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="623a8993-c8ef-46ae-b4e0-85ac1fb26201" guardText="if (numberofsongs == 0)" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="b846cd31-c833-4821-a068-4acb83f2a142" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="9bd98322-ca17-4ab3-8666-12eac71d9845" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="37c7a608-51b3-4db6-b952-7c7774a07cef" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="b68f578e-e6f8-48b9-8f7e-90f0c3b58ace" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="e182ab1a-4fc2-4755-bc5d-50767abacdff" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="182f5f32-cc6d-4a8f-bf92-161a44f35aed" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="1fda1838-aa0a-46d7-9e6a-4aa8f27f67c4" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="be24ee07-c4ba-4924-a457-d8cc98d591d6" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="5a17ccd7-8277-49a1-94ea-7ff7c4fc3abe" name="InteractionOperand2">
+                <coveredLifelines>
+                  <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                  <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                  <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                  <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                </coveredLifelines>
+                <fragments>
+                  <combinedFragment Id="0c15584c-3488-4f95-bf9b-8e503c3aa27e" name="CombinedFragment1" interactionOperator="Opt" customInteractionOperator="If">
+                    <coveredLifelines>
+                      <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                      <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                      <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                      <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                    </coveredLifelines>
+                    <operands>
+                      <interactionOperand Id="f0e46132-9a87-4dae-9ee8-7513a51fac87" name="InteractionOperand1">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                          <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                          <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                          <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                        </coveredLifelines>
+                        <fragments>
+                          <combinedFragment Id="8301816b-1306-4897-99c1-09aa6da9d8a9" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="Try">
+                            <coveredLifelines>
+                              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                            </coveredLifelines>
+                            <operands>
+                              <interactionOperand Id="d24f9ec4-b40d-4dbe-9988-f6e3fe1d897a" name="InteractionOperand1">
+                                <coveredLifelines>
+                                  <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                                  <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                                  <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                                  <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                                </coveredLifelines>
+                                <fragments>
+                                  <combinedFragment Id="41906859-cb42-43e3-9e47-506e33e8aabe" name="CombinedFragment1" interactionOperator="Opt" customInteractionOperator="If">
+                                    <coveredLifelines>
+                                      <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                                      <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                                      <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                                      <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                                    </coveredLifelines>
+                                    <operands>
+                                      <interactionOperand Id="b97e2d34-437b-42c4-a996-e94f95166808" name="InteractionOperand1">
+                                        <coveredLifelines>
+                                          <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                                          <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                                          <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                                          <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                                        </coveredLifelines>
+                                        <fragments>
+                                          <combinedFragment Id="a1040929-47f4-4dc8-b0b3-5ae80f9a9bce" name="CombinedFragment1" interactionOperator="Loop" customInteractionOperator="Loop">
+                                            <coveredLifelines>
+                                              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                                              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                                              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                                              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                                            </coveredLifelines>
+                                            <operands>
+                                              <interactionOperand Id="a0566234-283f-4c66-a841-90559a6a9fc4" name="InteractionOperand1">
+                                                <coveredLifelines>
+                                                  <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                                                  <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                                                  <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                                                  <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                                                </coveredLifelines>
+                                                <guard>
+                                                  <interactionConstraint Id="d66fe2fc-364e-4d0f-b568-7c2a79845bcf" guardText="for (int i = numberofsongs;i &lt; listView1.Items.Count; i++)">
+                                                    <maxInt>
+                                                      <literalString Id="4431b85a-9d8f-4b53-a848-d839b45ea5ac" name="LiteralString1" />
+                                                    </maxInt>
+                                                    <minInt>
+                                                      <literalString Id="465aba1e-40a8-4c21-b1f8-60f61c1870fb" name="LiteralString2" />
+                                                    </minInt>
+                                                  </interactionConstraint>
+                                                </guard>
+                                                <operandOccurrenceSpecifications>
+                                                  <operandOccurrenceSpecificationMoniker Id="0f62e9e0-31a7-45d0-a0b7-9110a3c3f1ca" LastKnownName="OperandOccurrenceSpecification" />
+                                                  <operandOccurrenceSpecificationMoniker Id="b26dcdae-4d6a-4ee7-85b7-78d9491f7f0e" LastKnownName="OperandOccurrenceSpecification" />
+                                                  <operandOccurrenceSpecificationMoniker Id="c28fccc5-73e8-4bae-94be-561ad08dd06f" LastKnownName="OperandOccurrenceSpecification" />
+                                                  <operandOccurrenceSpecificationMoniker Id="d4882a6d-b4da-48e1-82e7-f8acc22113aa" LastKnownName="OperandOccurrenceSpecification" />
+                                                  <operandOccurrenceSpecificationMoniker Id="ed8dcb73-471c-4817-aca1-214a7f5c357f" LastKnownName="OperandOccurrenceSpecification" />
+                                                  <operandOccurrenceSpecificationMoniker Id="b08647b3-c246-4a65-8583-4871783eaae0" LastKnownName="OperandOccurrenceSpecification" />
+                                                  <operandOccurrenceSpecificationMoniker Id="ea80db52-8f6f-4428-bff5-c7dab42113be" LastKnownName="OperandOccurrenceSpecification" />
+                                                  <operandOccurrenceSpecificationMoniker Id="67d68695-5cdb-4013-9980-00e734375a41" LastKnownName="OperandOccurrenceSpecification" />
+                                                </operandOccurrenceSpecifications>
+                                              </interactionOperand>
+                                            </operands>
+                                          </combinedFragment>
+                                        </fragments>
+                                        <guard>
+                                          <interactionConstraint Id="5f8edbcd-fd6d-4a43-b723-e88a55d4f28b" guardText="if ((myStream = openFileDialog1.OpenFile()) != null)" />
+                                        </guard>
+                                        <operandOccurrenceSpecifications>
+                                          <operandOccurrenceSpecificationMoniker Id="7c3aeb8d-ac98-4a34-a72b-83822c7cb907" LastKnownName="OperandOccurrenceSpecification" />
+                                          <operandOccurrenceSpecificationMoniker Id="c2893e88-4623-4bba-b812-fd2873cc7935" LastKnownName="OperandOccurrenceSpecification" />
+                                          <operandOccurrenceSpecificationMoniker Id="7d6a66ca-da4a-4eee-b89f-017973e1da82" LastKnownName="OperandOccurrenceSpecification" />
+                                          <operandOccurrenceSpecificationMoniker Id="60ccfeda-d83b-46d4-bd3e-a3f899644f52" LastKnownName="OperandOccurrenceSpecification" />
+                                          <operandOccurrenceSpecificationMoniker Id="25703d4a-d942-41ed-9e4d-6a662ab695f7" LastKnownName="OperandOccurrenceSpecification" />
+                                          <operandOccurrenceSpecificationMoniker Id="9af97239-0434-49be-b2e7-f70dd9921563" LastKnownName="OperandOccurrenceSpecification" />
+                                          <operandOccurrenceSpecificationMoniker Id="952b2deb-8468-4f3f-b1ee-ba74c2234226" LastKnownName="OperandOccurrenceSpecification" />
+                                          <operandOccurrenceSpecificationMoniker Id="729aee97-b971-4de5-a1ca-9ebb309fd8b1" LastKnownName="OperandOccurrenceSpecification" />
+                                        </operandOccurrenceSpecifications>
+                                      </interactionOperand>
+                                    </operands>
+                                  </combinedFragment>
+                                </fragments>
+                                <guard>
+                                  <interactionConstraint Id="4f6ea783-b6b5-41d1-990c-ea9c60aace0a" guardText="try" />
+                                </guard>
+                                <operandOccurrenceSpecifications>
+                                  <operandOccurrenceSpecificationMoniker Id="eac9551a-c685-4ed3-9ad4-cd4ab6d8af69" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="e798df71-8179-4df9-afa0-cccdc999527e" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="53b3d4ee-c893-47bf-b9c6-43b630f1bf6a" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="8ddbd3e6-7989-4e8b-988f-b9d4848e01b6" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="1fe76856-2bfe-4c66-8548-ebda4ebc0915" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="30b60e49-5d43-4d3a-bf1a-28c970223b5e" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="abbaffa3-f5c2-4aaa-818f-7e0df14333c0" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="439c98a2-b1c6-4e5f-98cb-34e7fb6d6e4a" LastKnownName="OperandOccurrenceSpecification" />
+                                </operandOccurrenceSpecifications>
+                              </interactionOperand>
+                              <interactionOperand Id="8a6c8572-bf11-4610-8ffa-3f81e650ff63" name="InteractionOperand2">
+                                <coveredLifelines>
+                                  <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+                                  <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+                                  <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+                                  <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+                                </coveredLifelines>
+                                <guard>
+                                  <interactionConstraint Id="7cd0a406-7009-4cea-ac7f-67e563f167a2" guardText="catch (Exception)" />
+                                </guard>
+                                <operandOccurrenceSpecifications>
+                                  <operandOccurrenceSpecificationMoniker Id="3dabf8c9-826a-46d4-adab-ac01a8b983ab" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="14264397-7e26-43dd-9f8b-aefce1259128" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="f6bfd622-b173-426f-96bc-5999de03af84" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="78bcbb66-4f06-4c67-b9be-72654fb9fce1" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="f9043098-7660-4b6b-8787-260d1c68ed62" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="53eb3390-1217-4062-97d7-9086fb8b2426" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="c7ab5fa4-0ae2-4396-b899-f1808d42bd2d" LastKnownName="OperandOccurrenceSpecification" />
+                                  <operandOccurrenceSpecificationMoniker Id="18d2f903-ee5a-4398-9a4e-6d0b9c639670" LastKnownName="OperandOccurrenceSpecification" />
+                                </operandOccurrenceSpecifications>
+                              </interactionOperand>
+                            </operands>
+                          </combinedFragment>
+                        </fragments>
+                        <guard>
+                          <interactionConstraint Id="ed5cb18f-33ec-4aab-90c8-70f4793fb30c" guardText="if (openFileDialog1.ShowDialog() == DialogResult.OK)" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="e5b6ec98-0677-4fb7-9ff9-64caa8a45215" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="d651fe05-adfb-47c3-9ad6-a382a8531eda" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="435545e7-1c04-4ef2-982e-ebdb65856b62" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="0796e199-80e2-4e72-86a2-980dfc68c409" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="8fdb006f-eb9b-489a-a6d8-5063dc351687" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="2a621a2c-2a07-4dcb-a911-68aa06ecb441" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="db52c8b0-0f9d-4729-9747-03e9205b94cc" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="de742323-0446-4bed-967c-c133d3dbbd3a" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                    </operands>
+                  </combinedFragment>
+                </fragments>
+                <guard>
+                  <interactionConstraint Id="1f70a041-de1e-4c3a-ad61-3fb48e4b0c5d" guardText="else" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="67310259-d9bc-43ff-b5b5-699b9803164b" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="e1fe467e-e3ca-4301-ae62-03348e291e03" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="4351451d-0c04-4d9c-a1e7-743401355b0c" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="c77e6ac8-a591-4fbc-82b0-6c357cca26ce" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="bfc9e69f-e874-40a6-b8c5-e89105a0f11e" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="e3c5cf3c-9ea6-4b39-863d-b9d19aa01fdb" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="9a9b518e-3032-495e-a605-54dbe150f8bb" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="a0292315-b096-42d8-b318-410e0a151f58" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="e182ab1a-4fc2-4755-bc5d-50767abacdff" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="b846cd31-c833-4821-a068-4acb83f2a142" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="37c7a608-51b3-4db6-b952-7c7774a07cef" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="1fda1838-aa0a-46d7-9e6a-4aa8f27f67c4" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="b68f578e-e6f8-48b9-8f7e-90f0c3b58ace" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="182f5f32-cc6d-4a8f-bf92-161a44f35aed" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="be24ee07-c4ba-4924-a457-d8cc98d591d6" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="9bd98322-ca17-4ab3-8666-12eac71d9845" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="bfc9e69f-e874-40a6-b8c5-e89105a0f11e" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="4351451d-0c04-4d9c-a1e7-743401355b0c" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="67310259-d9bc-43ff-b5b5-699b9803164b" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="9a9b518e-3032-495e-a605-54dbe150f8bb" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="db52c8b0-0f9d-4729-9747-03e9205b94cc" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="8fdb006f-eb9b-489a-a6d8-5063dc351687" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="e5b6ec98-0677-4fb7-9ff9-64caa8a45215" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="435545e7-1c04-4ef2-982e-ebdb65856b62" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="eac9551a-c685-4ed3-9ad4-cd4ab6d8af69" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="53b3d4ee-c893-47bf-b9c6-43b630f1bf6a" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="abbaffa3-f5c2-4aaa-818f-7e0df14333c0" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="1fe76856-2bfe-4c66-8548-ebda4ebc0915" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="25703d4a-d942-41ed-9e4d-6a662ab695f7" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="952b2deb-8468-4f3f-b1ee-ba74c2234226" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="7d6a66ca-da4a-4eee-b89f-017973e1da82" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="7c3aeb8d-ac98-4a34-a72b-83822c7cb907" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="ed8dcb73-471c-4817-aca1-214a7f5c357f" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c28fccc5-73e8-4bae-94be-561ad08dd06f" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="0f62e9e0-31a7-45d0-a0b7-9110a3c3f1ca" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="ea80db52-8f6f-4428-bff5-c7dab42113be" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="2df45620-c501-42c2-a7e5-e894cba40d85" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="93cc75f3-4870-468c-b4ae-706a5de5a5ac" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="db625744-13c3-4620-af0d-4a3b632b5afa" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="a45245bb-ec12-4234-82f1-4d4a60424bab" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="d2e3c84e-478a-4ce4-850d-1fe145e3c248" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="db625744-13c3-4620-af0d-4a3b632b5afa" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="3f8b5d58-f1ec-46d6-a7b9-1c1e59a3ae39" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="78bd2b33-929c-4186-b4c4-e22496530bc6" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="a45245bb-ec12-4234-82f1-4d4a60424bab" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d2e3c84e-478a-4ce4-850d-1fe145e3c248" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="72dea7e3-4dc6-409d-8d38-22262cfbb208" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="93cc75f3-4870-468c-b4ae-706a5de5a5ac" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e9cf94ca-12f7-4455-ad26-f0b8a22ad4fc" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="526f357e-1dc5-4218-b073-ea8a5981ba9a" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="85f03eac-40c1-4b71-90e0-30000605680b" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="7d9eebb3-233b-4001-ae67-7fc406b5a867" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="690ab4af-677f-4ed1-a46e-9d26bb187ae3" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="6325baa8-eda8-499c-b4fb-605aff491ed7" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="7d9eebb3-233b-4001-ae67-7fc406b5a867" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ed376995-9e86-4d8d-a0a9-9373fcfaaeb9" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="690ab4af-677f-4ed1-a46e-9d26bb187ae3" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ca9b3927-9a57-4f12-a19c-09b6655f063f" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6325baa8-eda8-499c-b4fb-605aff491ed7" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="701e13d7-2f44-4103-9543-35166634811d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="85f03eac-40c1-4b71-90e0-30000605680b" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="655bb01a-3f16-4ef4-b72b-1dab54effa60" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="388762fd-6f2c-4b52-964f-e6c408390f8c" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="a7b02cef-ca9e-4e69-85ec-b3031ea09842" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="5cc96aba-3b67-4f0d-bdf0-5942d69dd9a1" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="2916aebf-426d-48df-9279-0e9d43852345" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="3e59f4d0-2dda-418f-9d0d-a39bf9ae1860" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="5cc96aba-3b67-4f0d-bdf0-5942d69dd9a1" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="2ba25b3b-2b13-4416-b789-00152669f117" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="2916aebf-426d-48df-9279-0e9d43852345" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1895ecb1-e351-46ad-b956-b685bc681a6d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="2dcbfd1a-5262-4f6e-a50d-84b084a79768" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3e59f4d0-2dda-418f-9d0d-a39bf9ae1860" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="a7b02cef-ca9e-4e69-85ec-b3031ea09842" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="3b388411-7bbf-4350-a640-90d0c4a742f6" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="b08647b3-c246-4a65-8583-4871783eaae0" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="67d68695-5cdb-4013-9980-00e734375a41" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="b26dcdae-4d6a-4ee7-85b7-78d9491f7f0e" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="d4882a6d-b4da-48e1-82e7-f8acc22113aa" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="9af97239-0434-49be-b2e7-f70dd9921563" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="729aee97-b971-4de5-a1ca-9ebb309fd8b1" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c2893e88-4623-4bba-b812-fd2873cc7935" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="60ccfeda-d83b-46d4-bd3e-a3f899644f52" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="8ddbd3e6-7989-4e8b-988f-b9d4848e01b6" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="e798df71-8179-4df9-afa0-cccdc999527e" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="30b60e49-5d43-4d3a-bf1a-28c970223b5e" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="439c98a2-b1c6-4e5f-98cb-34e7fb6d6e4a" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="3dabf8c9-826a-46d4-adab-ac01a8b983ab" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="f6bfd622-b173-426f-96bc-5999de03af84" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="f9043098-7660-4b6b-8787-260d1c68ed62" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c7ab5fa4-0ae2-4396-b899-f1808d42bd2d" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="14264397-7e26-43dd-9f8b-aefce1259128" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="78bcbb66-4f06-4c67-b9be-72654fb9fce1" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="53eb3390-1217-4062-97d7-9086fb8b2426" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="18d2f903-ee5a-4398-9a4e-6d0b9c639670" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="de742323-0446-4bed-967c-c133d3dbbd3a" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="0796e199-80e2-4e72-86a2-980dfc68c409" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="2a621a2c-2a07-4dcb-a911-68aa06ecb441" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="d651fe05-adfb-47c3-9ad6-a382a8531eda" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="e1fe467e-e3ca-4301-ae62-03348e291e03" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="a0292315-b096-42d8-b318-410e0a151f58" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="c9a83518-de01-4707-80ff-2fa38eb816ba" LastKnownName="Ctlcontrols : IWMPControls" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="e3c5cf3c-9ea6-4b39-863d-b9d19aa01fdb" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" LastKnownName="this.playlist : IWMPPlaylist" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c77e6ac8-a591-4fbc-82b0-6c357cca26ce" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a4663a04-2845-4357-ac48-c727c570ab4a" LastKnownName="this.mediaPlayer : AxWindowsMediaPlayer" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="c6e05a52-a8e3-4bed-8bfe-37a2e6dbecf7" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="a3e01622-8010-4dd8-86e2-15006e27f367" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="f3feb276-f8e6-4190-bff1-884f29692ffa" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="f3feb276-f8e6-4190-bff1-884f29692ffa" name="this : ClassMenuTrip" isActor="false" lifelineDisplayName="this : ClassMenuTrip" referencedInstance="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=ClassMenuTrip ObjectInstance=&quot;Object instance 3&quot;)" referencedType="MediaPlayerMD‎.ClassMenuTrip">
+            <referencesInternal>
+              <reference Id="a4653980-0f2e-4e63-bc11-94f649bb73b1" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MediaPlayerMD)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&amp;quot; Namespace=MediaPlayerMD Type=ClassMenuTrip)&quot;)" tag="DGQL" />
+              <reference Id="b392a383-c75d-4b9b-8d37-332416251c0e" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=ClassMenuTrip)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="bc7e8bb4-6500-4793-bc9f-a863076cc240" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="c6e05a52-a8e3-4bed-8bfe-37a2e6dbecf7" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="a4663a04-2845-4357-ac48-c727c570ab4a" name="this.mediaPlayer : AxWindowsMediaPlayer" isActor="false" lifelineDisplayName="this.mediaPlayer : AxWindowsMediaPlayer" referencedInstance="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=ClassMenuTrip Member=mediaPlayer ObjectInstance=&quot;Object instance 38&quot;)" referencedType="AxWMPLib‎.AxWindowsMediaPlayer">
+            <referencesInternal>
+              <reference Id="07dd1b6d-d523-4c30-81cb-f492ef71a01e" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=AxWMPLib)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/AxInterop.WMPLib.dll&amp;quot; Namespace=AxWMPLib Type=AxWindowsMediaPlayer)&quot;)" tag="DGQL" />
+              <reference Id="3ad86b8a-844b-490c-a3a6-a086679291a2" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/AxInterop.WMPLib.dll&quot; Namespace=AxWMPLib Type=AxWindowsMediaPlayer)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="37c7a608-51b3-4db6-b952-7c7774a07cef" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="b68f578e-e6f8-48b9-8f7e-90f0c3b58ace" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="4351451d-0c04-4d9c-a1e7-743401355b0c" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="435545e7-1c04-4ef2-982e-ebdb65856b62" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="53b3d4ee-c893-47bf-b9c6-43b630f1bf6a" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="7d6a66ca-da4a-4eee-b89f-017973e1da82" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="c28fccc5-73e8-4bae-94be-561ad08dd06f" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="db625744-13c3-4620-af0d-4a3b632b5afa" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="93cc75f3-4870-468c-b4ae-706a5de5a5ac" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="d4882a6d-b4da-48e1-82e7-f8acc22113aa" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="60ccfeda-d83b-46d4-bd3e-a3f899644f52" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="8ddbd3e6-7989-4e8b-988f-b9d4848e01b6" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="f6bfd622-b173-426f-96bc-5999de03af84" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="78bcbb66-4f06-4c67-b9be-72654fb9fce1" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="0796e199-80e2-4e72-86a2-980dfc68c409" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="c77e6ac8-a591-4fbc-82b0-6c357cca26ce" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="d2f1a04b-58ba-4964-82b2-3bed92789c35" name="this.playlist : IWMPPlaylist" isActor="false" lifelineDisplayName="this.playlist : IWMPPlaylist" referencedInstance="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=ClassMenuTrip Member=playlist ObjectInstance=&quot;Object instance 46&quot;)" referencedType="WMPLib‎.IWMPPlaylist">
+            <referencesInternal>
+              <reference Id="e5691d17-6e31-4742-b0a2-14deed228a6f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=WMPLib)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&amp;quot; Namespace=WMPLib Type=IWMPPlaylist)&quot;)" tag="DGQL" />
+              <reference Id="7d955dcb-419b-4c26-b742-c4fc588674d0" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&quot; Namespace=WMPLib Type=IWMPPlaylist)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="e182ab1a-4fc2-4755-bc5d-50767abacdff" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="182f5f32-cc6d-4a8f-bf92-161a44f35aed" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="bfc9e69f-e874-40a6-b8c5-e89105a0f11e" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="8fdb006f-eb9b-489a-a6d8-5063dc351687" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="1fe76856-2bfe-4c66-8548-ebda4ebc0915" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="25703d4a-d942-41ed-9e4d-6a662ab695f7" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="ed8dcb73-471c-4817-aca1-214a7f5c357f" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="7d9eebb3-233b-4001-ae67-7fc406b5a867" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="85f03eac-40c1-4b71-90e0-30000605680b" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="b08647b3-c246-4a65-8583-4871783eaae0" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="9af97239-0434-49be-b2e7-f70dd9921563" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="30b60e49-5d43-4d3a-bf1a-28c970223b5e" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="f9043098-7660-4b6b-8787-260d1c68ed62" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="53eb3390-1217-4062-97d7-9086fb8b2426" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="2a621a2c-2a07-4dcb-a911-68aa06ecb441" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="e3c5cf3c-9ea6-4b39-863d-b9d19aa01fdb" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="c9a83518-de01-4707-80ff-2fa38eb816ba" name="Ctlcontrols : IWMPControls" isActor="false" lifelineDisplayName="Ctlcontrols : IWMPControls" referencedInstance="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=ClassMenuTrip Member=(Name=bt_Add_Click OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=EventArgs)]) Statement=[1,2,3,1,1,2,2,1,1,1,1,1,2,1,1,2,1,4,5,1,4,1] ObjectInstance=&quot;Object instance 48&quot;)" referencedType="WMPLib‎.IWMPControls">
+            <referencesInternal>
+              <reference Id="df680c8f-53bd-4de0-bc92-e54e3ae41c91" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=WMPLib)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&amp;quot; Namespace=WMPLib Type=IWMPControls)&quot;)" tag="DGQL" />
+              <reference Id="48b759e5-5b9f-4ff6-aac3-768a0683c2cf" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&quot; Namespace=WMPLib Type=IWMPControls)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="1fda1838-aa0a-46d7-9e6a-4aa8f27f67c4" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="be24ee07-c4ba-4924-a457-d8cc98d591d6" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="9a9b518e-3032-495e-a605-54dbe150f8bb" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="db52c8b0-0f9d-4729-9747-03e9205b94cc" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="abbaffa3-f5c2-4aaa-818f-7e0df14333c0" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="952b2deb-8468-4f3f-b1ee-ba74c2234226" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="ea80db52-8f6f-4428-bff5-c7dab42113be" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="5cc96aba-3b67-4f0d-bdf0-5942d69dd9a1" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="a7b02cef-ca9e-4e69-85ec-b3031ea09842" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="67d68695-5cdb-4013-9980-00e734375a41" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="729aee97-b971-4de5-a1ca-9ebb309fd8b1" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="439c98a2-b1c6-4e5f-98cb-34e7fb6d6e4a" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="c7ab5fa4-0ae2-4396-b899-f1808d42bd2d" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="18d2f903-ee5a-4398-9a4e-6d0b9c639670" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="de742323-0446-4bed-967c-c133d3dbbd3a" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="a0292315-b096-42d8-b318-410e0a151f58" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="c5d2894f-d4cb-4145-bd3b-2be8482dfd59" name="bt_Add_Click" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="1e3d6957-0ace-4bd2-88ec-f6971bbdeee1" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MediaPlayerMD)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&amp;quot; Namespace=MediaPlayerMD Type=ClassMenuTrip)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&amp;quot; Namespace=MediaPlayerMD Type=ClassMenuTrip Member=(Name=bt_Add_Click OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=Object),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=EventArgs)]))&quot;)" tag="DGQL" />
+              <reference Id="d36722d7-ef20-4576-8b9e-35410893943e" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=ClassMenuTrip Member=(Name=bt_Add_Click OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=EventArgs)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="c2fd877c-7c0a-4fe0-9737-b50f7a057cd6" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e2158d26-1d71-45f3-bdcd-05072d31f4b1" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="28912dc1-4cbe-4bdb-acf5-efae3b8614ef" name="newMedia" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="mediaPlayer.newMedia(listView1.Items[i].SubItems[1].Text)">
+            <referencesInternal>
+              <reference Id="a4bcd3b9-0627-4cb2-b438-ffe4f6c48e50" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=AxWMPLib)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/AxInterop.WMPLib.dll&amp;quot; Namespace=AxWMPLib Type=AxWindowsMediaPlayer)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/AxInterop.WMPLib.dll&amp;quot; Namespace=AxWMPLib Type=AxWindowsMediaPlayer Member=(Name=newMedia OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="205ef62e-c35b-4073-8fcc-0fecb4e5e821" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/AxInterop.WMPLib.dll&quot; Namespace=AxWMPLib Type=AxWindowsMediaPlayer Member=(Name=newMedia OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="78bd2b33-929c-4186-b4c4-e22496530bc6" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="a45245bb-ec12-4234-82f1-4d4a60424bab" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="b4ec869f-5009-49ef-ab48-087af8233313" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="d2e3c84e-478a-4ce4-850d-1fe145e3c248" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="72dea7e3-4dc6-409d-8d38-22262cfbb208" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="e66941b0-ee93-4418-a446-9705cf49e132" name="appendItem" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="playlist.appendItem(media)">
+            <referencesInternal>
+              <reference Id="6139934e-bb8e-4bdb-8ecd-0762be7a7a51" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=WMPLib)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&amp;quot; Namespace=WMPLib Type=IWMPPlaylist)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&amp;quot; Namespace=WMPLib Type=IWMPPlaylist Member=(Name=appendItem OverloadingParameters=[(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&amp;quot; Namespace=WMPLib Type=IWMPMedia)]))&quot;)" tag="DGQL" />
+              <reference Id="42381de4-7803-4e83-8bda-7a3852549c9d" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&quot; Namespace=WMPLib Type=IWMPPlaylist Member=(Name=appendItem OverloadingParameters=[(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&quot; Namespace=WMPLib Type=IWMPMedia)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="ca9b3927-9a57-4f12-a19c-09b6655f063f" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="690ab4af-677f-4ed1-a46e-9d26bb187ae3" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="3b5d943c-3ab1-4cc7-98e2-fe6952e21c8a" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6325baa8-eda8-499c-b4fb-605aff491ed7" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="701e13d7-2f44-4103-9543-35166634811d" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="08918a71-5260-4c1c-b6dd-5241f14f44c5" name="play" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="mediaPlayer.Ctlcontrols.play()">
+            <referencesInternal>
+              <reference Id="7eb4884b-845b-49ba-bdbe-2e47595eec85" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=WMPLib)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&amp;quot; Namespace=WMPLib Type=IWMPControls)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&amp;quot; Namespace=WMPLib Type=IWMPControls Member=play)&quot;)" tag="DGQL" />
+              <reference Id="6632e3d3-52e8-42c2-b95d-c5a0443ee92f" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/Interop.WMPLib.dll&quot; Namespace=WMPLib Type=IWMPControls Member=play)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="1895ecb1-e351-46ad-b956-b685bc681a6d" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="2916aebf-426d-48df-9279-0e9d43852345" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="da2ad7b2-7238-4f5c-9eac-4257fb87efd5" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="3e59f4d0-2dda-418f-9d0d-a39bf9ae1860" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="2dcbfd1a-5262-4f6e-a50d-84b084a79768" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="38103ccf-8610-4083-968f-feded7a58aa7" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="a3e01622-8010-4dd8-86e2-15006e27f367" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="3f8b5d58-f1ec-46d6-a7b9-1c1e59a3ae39" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e9cf94ca-12f7-4455-ad26-f0b8a22ad4fc" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ed376995-9e86-4d8d-a0a9-9373fcfaaeb9" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="655bb01a-3f16-4ef4-b72b-1dab54effa60" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="2ba25b3b-2b13-4416-b789-00152669f117" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="3b388411-7bbf-4350-a640-90d0c4a742f6" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

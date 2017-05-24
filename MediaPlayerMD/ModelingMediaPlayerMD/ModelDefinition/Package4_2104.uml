@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="99720cf2-ad7a-4e81-a390-4272aab2ff15"
+  name="AxWMPLib"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4de696bd-0fd0-4b8e-a390-f20f5b41b1ce"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAxWMPLib"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="40ae4971-d867-40ff-aa1f-c1f7d3d6aae7">
+      <profileInstance
+        Id="0f9e4130-77ab-4a54-8394-84e9ed00d551"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="224b16a7-8abd-4a42-b700-8936e5f23ea3"
+        name="AxWindowsMediaPlayer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="86ed71ab-2a5d-4a0b-a1bc-3f439b3177ed"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FE:%2FC%2523%2FProject%2FConsole Applications C%2523%2FRoundTrip%2FMediaPlayerMD%2FMediaPlayerMD%2Fbin%2FDebug%2FAxInterop.WMPLib.dll&quot; Namespace%3DAxWMPLib Type%3DAxWindowsMediaPlayer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="12fd39a9-eaed-48b2-a72c-825a18df4d61"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1035c9e-14b7-4b97-8ac7-12bcc63a3151">
+                <propertyInstance
+                  Id="b6f2a4b0-f76f-417e-8527-1605d38e50d1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1411a13f-0d94-4b02-8ef1-9eaa4616e212">
+                <propertyInstance
+                  Id="cae24311-fab5-42e3-ab86-1c294541b5c5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5679165f-4771-43ec-be91-7f75e52d0d7a">
+                <propertyInstance
+                  Id="2ef4fb60-e466-4289-85ef-b3791de43468"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="14b83ba6-31f0-484b-8ed8-53ac7a1ea3e4">
+                <propertyInstance
+                  Id="a4ade14f-8e52-4393-bcef-abe6d41e79f1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b4a32b9c-090e-44e7-901b-f720a698c29d">
+                <propertyInstance
+                  Id="fdae5f32-fde1-451a-adb5-88fcd61445c5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

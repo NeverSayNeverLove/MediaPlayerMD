@@ -1,0 +1,5 @@
+E:\C#\Project\Console Applications C#\RoundTrip\MediaPlayerMD\MediaPlayerMD\bin\Debug\MediaPlayerMD.exe.config
+E:\C#\Project\Console Applications C#\RoundTrip\MediaPlayerMD\MediaPlayerMD\bin\Debug\MediaPlayerMD.exe
+E:\C#\Project\Console Applications C#\RoundTrip\MediaPlayerMD\MediaPlayerMD\bin\Debug\MediaPlayerMD.pdb
+E:\C#\Project\Console Applications C#\RoundTrip\MediaPlayerMD\MediaPlayerMD\obj\Debug\MediaPlayerMD.exe
+E:\C#\Project\Console Applications C#\RoundTrip\MediaPlayerMD\MediaPlayerMD\obj\Debug\MediaPlayerMD.pdb

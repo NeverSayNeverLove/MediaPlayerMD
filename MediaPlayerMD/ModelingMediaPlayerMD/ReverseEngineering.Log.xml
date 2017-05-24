@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2017-05-18T09:48:34" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::AxWMPLib' -  (Package)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::AxWMPLib::AxWindowsMediaPlayer' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD' -  (Package)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassListView' -  (Class)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassListView::ClassListView' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassListView::colLocation' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassListView::colTitle' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassListView::getListView' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassListView::listView1' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMedia' -  (Class)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMedia::ClassMedia' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMedia::getMediaPlayer' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMedia::mediaPlayer' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip' -  (Class)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_About' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_About_Click' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_About_Click::e' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_About_Click::sender' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_Add' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_Add_Click' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_Add_Click::e' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_Add_Click::sender' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_Exit' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_Open' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_Open_Click' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_Open_Click::e' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_Open_Click::sender' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_ViewHelp' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_ViewHelp_Click' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_ViewHelp_Click::e' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::bt_ViewHelp_Click::sender' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::ClassMenuTrip' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::ClassMenuTrip::listView1' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::ClassMenuTrip::mediaPlayer' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::ClassMenuTrip::myStream' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::ClassMenuTrip::playlist' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::fILEToolStripMenuItem' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::getMenuStrip' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::getOpenFileDialog' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::hELPToolStripMenuItem' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::listView1' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::media' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::mediaPlayer' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::menuStrip1' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::myStream' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::openFileDialog1' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassMenuTrip::playlist' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer' -  (Class)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::ClassSplitContainer' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::ClassSplitContainer::playlist' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::getList' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::getMedia' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::getSplitContainer' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::listView1' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::listView1_DoubleClick' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::listView1_DoubleClick::e' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::listView1_DoubleClick::sender' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::mediaPlayer' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::playlist' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::ClassSplitContainer::splitContainer1' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1' -  (Class)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::bt_Exit_Click' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::bt_Exit_Click::e' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::bt_Exit_Click::sender' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::components' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::Dispose' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::Dispose::disposing' -  (Parameter)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::Form1' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::InitializeComponent' -  (Operation)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::menuStrip1' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::myStream' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::playlist' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::MediaPlayerMD::Form1::splitContainer1' -  (Property)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System' -  (Package)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::ComponentModel' -  (Package)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::ComponentModel::IContainer' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::EventArgs' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::IO' -  (Package)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::IO::Stream' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::Windows' -  (Package)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::Windows::Forms' -  (Package)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::Windows::Forms::ColumnHeader' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::Windows::Forms::Form' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::Windows::Forms::ListView' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::Windows::Forms::MenuStrip' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::Windows::Forms::OpenFileDialog' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::Windows::Forms::SplitContainer' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::System::Windows::Forms::ToolStripMenuItem' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::WMPLib' -  (Package)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::WMPLib::IWMPMedia' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingMediaPlayerMD::WMPLib::IWMPPlaylist' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingMediaPlayerMD::MediaPlayerMD::Form1 to ModelingMediaPlayerMD::System::Windows::Forms::Form (Generalization)" />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="High" Text="(5) type(s) fully reverse engineered." />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="High" Text="(14) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2017-05-18T09:48:38" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

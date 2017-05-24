@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MediaPlayerMD.ClassListView">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>ClassListView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaPlayerMD.ClassMenuTrip">
+    <Position X="4.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAQAAACAAQAAAQAQAQAICAAgAAgAAAABIAkEEI=</HashCode>
+      <FileName>ClassMenuTrip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaPlayerMD.ClassSplitContainer">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAEAAAAAACQAAAAAAAoAAEEA=</HashCode>
+      <FileName>ClassSplitContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaPlayerMD.Form1">
+    <Position X="2.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAECAAAAAAAACAAAACAAAAAQAAAAAAAAAAEAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaPlayerMD.ClassMedia">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>ClassMedia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MediaPlayerMDThuy.Program">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

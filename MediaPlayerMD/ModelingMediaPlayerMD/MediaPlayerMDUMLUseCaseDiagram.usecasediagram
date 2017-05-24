@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="567d2330-fb78-4c30-8460-38c65f12c56f" name="MediaPlayerMDUMLUseCaseDiagram" linkedPackageId="ff43ca7e-56fb-488b-81b1-9b44406036bb" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="e8488cd0-0203-4747-8c47-16535c187ff2" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7424474c-a069-4c4a-a0c8-5037ed98e244" />
+        <targetEnds>
+          <association Id="bd08f1fa-792b-4c4e-ab1a-2eeb4cd13a63" isDerived="false" sourceEndRoleName="User" targetEndRoleName="DoubleClickItem" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="74b313b9-51f1-4548-967d-4a2b302721cb" LastKnownName="DoubleClickItem" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0a3d499e-7104-4e95-8026-89beb1da48cc" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="954d1841-07ad-4213-86f4-4946497b83a0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2007d260-86d4-40ca-ac41-50a77025e1c5" name="DoubleClickItem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="54ddca21-b9ad-48a1-b059-d7f58883fe09" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0edb947f-6d00-4e58-9513-e470868e5583" />
+          </association>
+          <association Id="d13646ed-3720-4289-a8ef-ad0de3721887" isDerived="false" sourceEndRoleName="User" targetEndRoleName="MediaPlayer" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1e8c7dd1-a9ca-447b-8d65-e24d4cee8af9" LastKnownName="MediaPlayer" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ee445cac-1a1f-42f0-b603-fa6ebb40e24b" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d81cf9cd-b52f-492c-ada9-ecfa4eec1d51" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9e9bd85b-586a-46ac-ae93-382dcfc1b01b" name="MediaPlayer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3bba1e32-5b95-4d98-8b50-7b168776dfe1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a6163575-fbbe-435f-ac72-908a18a91358" />
+          </association>
+          <association Id="16673081-a283-45d4-8c56-7ecd03fdc176" isDerived="false" sourceEndRoleName="User" targetEndRoleName="HelpAndAbout" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a987dc4c-fd53-410a-9dc0-f4511e5e3e78" LastKnownName="HelpAndAbout" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cc9259bb-1714-4c43-8b06-bd676ef93d90" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c5774363-772b-4480-a03a-02d2947614c4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d939c595-58cb-463b-ae1a-9195c2995aad" name="HelpAndAbout" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c930a66e-7e7b-4458-82f7-73990c8c3bbe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b5214129-1eb9-48c7-975e-174b532ac555" />
+          </association>
+          <association Id="3bcf44f0-ab36-4f4e-866a-67509ef6d12e" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Exit" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bf5be749-c118-4c4c-981c-a1fde8ef4bd3" LastKnownName="Exit" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="63472046-d424-4a4a-a3dc-413b2327e5a1" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="23df2533-8765-4548-b1d3-96cca41e52bb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d2474b6d-be8a-45a9-a1e6-a2433b5f5b81" name="Exit" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f0569223-dbbb-4026-bbea-b740c21efbf6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0e53a098-9257-4efa-8fe1-0a651a9eb9e7" />
+          </association>
+          <association Id="94e538e8-0ff3-4904-be55-77634f6dd452" isDerived="false" sourceEndRoleName="User" targetEndRoleName="OpenFiles" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="65b9bf69-7f96-4a74-837c-31d16b634403" LastKnownName="OpenFiles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a9443c44-568b-4050-877f-75676b896f34" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="172371ea-2460-4060-a704-a1b34b4feb79" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c9931cf1-4eb3-42fc-9262-e3d3b806bba9" name="OpenFiles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d9316ddf-4490-44f2-aa4b-efb82cdb77ff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="df0bc021-7869-443f-a104-37a0876e80a7" />
+          </association>
+          <association Id="207c398f-0251-462f-b66f-ce64609669bc" isDerived="false" sourceEndRoleName="User" targetEndRoleName="AddFiles" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e0f3b711-bcb5-4be7-9d56-87fa4471ceeb" LastKnownName="AddFiles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1387d6e8-76a1-4c1b-859f-3790ea9adeb9" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8c91bca3-b49c-4463-b9d8-bd24d8c94f11" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="396061c7-621a-491e-a5ce-4f0b25ab46fd" name="AddFiles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cda077a5-8196-4e6a-bc4d-5cc3de6d45e9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b7f09e6b-1d98-4a10-823a-02013cf5e7f4" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="13b75ea0-ad45-44fd-9e20-89b8d270eb48" name="Play" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="da9d750f-724d-4a61-94b9-b21be67aaab1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bfa83a81-6644-4163-8a96-bc17bb752428" name="Stop" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="78f25c50-baa1-439a-b10b-f9ae95e871d2" />
+        <suppliersInternal>
+          <dependency Id="7050e204-3141-41fc-b935-64c1d4be265f">
+            <useCaseMoniker Id="13b75ea0-ad45-44fd-9e20-89b8d270eb48" LastKnownName="Play" />
+            <elementDefinition Id="d02ccd5e-025d-4058-9bfd-3777b05751bd" />
+          </dependency>
+          <dependency Id="a4396844-93a9-4610-afc1-7dd332495d88">
+            <useCaseMoniker Id="dbce3dee-01bf-4bc7-83b4-009f4459f963" LastKnownName="Pause" />
+            <elementDefinition Id="a930f4e8-d4bf-424e-8381-d820694641c8" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="65b9bf69-7f96-4a74-837c-31d16b634403" name="OpenFiles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3fc3139f-2efc-4e41-b4e0-cf947ec0e7c7" />
+        <additions>
+          <include Id="633a3ed8-2470-4514-ac35-9286f51c5b42">
+            <useCaseMoniker Id="b159be48-e562-4432-92d9-57c42a7749ea" LastKnownName="SelectOneFile" />
+            <elementDefinition Id="982e3a82-ed65-41c1-8622-d1be59a679c8" />
+          </include>
+          <include Id="b01988f0-4230-4370-bba1-197d51933a21">
+            <useCaseMoniker Id="1dc63039-3c2f-475f-a3c2-5417891c44b3" LastKnownName="SelectMultiFiles" />
+            <elementDefinition Id="fc53d137-b43f-4172-b49c-b676ff26162a" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e0f3b711-bcb5-4be7-9d56-87fa4471ceeb" name="AddFiles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="410cfbf0-c04a-4fe4-9fa9-3bb10166471b" />
+        <suppliersInternal>
+          <dependency Id="5ddf24c8-4fcb-413d-901e-be16b342035a">
+            <useCaseMoniker Id="65b9bf69-7f96-4a74-837c-31d16b634403" LastKnownName="OpenFiles" />
+            <elementDefinition Id="6e51e122-d7b3-45a9-81c7-a5fd3d4a9bf5" />
+          </dependency>
+        </suppliersInternal>
+        <additions>
+          <include Id="e25b21d7-7eef-47ec-912f-2ec59fa0c7b6">
+            <useCaseMoniker Id="b159be48-e562-4432-92d9-57c42a7749ea" LastKnownName="SelectOneFile" />
+            <elementDefinition Id="99defd5f-ceae-4b74-9f5c-6a92177522d2" />
+          </include>
+          <include Id="4cec7bc8-2293-4429-88d8-b2b9126ae15b">
+            <useCaseMoniker Id="1dc63039-3c2f-475f-a3c2-5417891c44b3" LastKnownName="SelectMultiFiles" />
+            <elementDefinition Id="b28d92a1-f18d-44a5-910d-d6d86cac1bf3" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a987dc4c-fd53-410a-9dc0-f4511e5e3e78" name="HelpAndAbout" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ef84174f-ded3-4991-8ca7-950789c622d5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bf5be749-c118-4c4c-981c-a1fde8ef4bd3" name="Exit" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5d78f9bd-fcc0-4262-82e2-2b529ac93ae9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="dbce3dee-01bf-4bc7-83b4-009f4459f963" name="Pause" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2281396a-3a3a-4bc6-b058-39463fa92b82" />
+        <suppliersInternal>
+          <dependency Id="d7db2893-238f-447b-8360-db6c28018e21">
+            <useCaseMoniker Id="13b75ea0-ad45-44fd-9e20-89b8d270eb48" LastKnownName="Play" />
+            <elementDefinition Id="d2d609f5-45ff-4a76-b260-0edcc5d0a111" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="74b66195-39d2-4719-a0f0-d941cc820ec6" name="Seek" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="03a7f728-f268-49dc-a9d3-2da3863f035d" />
+        <suppliersInternal>
+          <dependency Id="aa2b7902-9757-495d-9ec4-db9265b5f483">
+            <useCaseMoniker Id="13b75ea0-ad45-44fd-9e20-89b8d270eb48" LastKnownName="Play" />
+            <elementDefinition Id="d880c3dc-2a20-43ab-ad52-e08dc3c32279" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="afcff201-1e38-4b4a-b608-94f5050f8b4c" name="Previous" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c0e31195-bd89-423f-ad64-88d30ece6b37" />
+        <suppliersInternal>
+          <dependency Id="f537d2d8-7f3e-4af8-a5d6-bdb4041b1296">
+            <useCaseMoniker Id="1dc63039-3c2f-475f-a3c2-5417891c44b3" LastKnownName="SelectMultiFiles" />
+            <elementDefinition Id="605a30fc-f081-477f-96c8-240d6fbe6dff" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="684ca2a5-161d-4009-943f-5c0d3a6ff6e6" name="Next" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="580ec1c1-487b-442f-859f-5675d3e90cb2" />
+        <suppliersInternal>
+          <dependency Id="767aef53-17e0-4cd5-9a1e-9fd6c0fd0336">
+            <useCaseMoniker Id="1dc63039-3c2f-475f-a3c2-5417891c44b3" LastKnownName="SelectMultiFiles" />
+            <elementDefinition Id="9982db02-4a52-48ef-9250-5dcf4047cfe1" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2bb7cde4-13db-4102-9ab4-67899d0da028" name="Slower" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="384af4cc-10cf-42ea-99fe-aec154048884" />
+        <suppliersInternal>
+          <dependency Id="96002ee0-9e88-4f35-b540-78654de2980f">
+            <useCaseMoniker Id="13b75ea0-ad45-44fd-9e20-89b8d270eb48" LastKnownName="Play" />
+            <elementDefinition Id="15247838-2acc-4226-a213-f831e20dde0f" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6ce7573c-3384-4637-a2d2-d796eeb8bcf4" name="Faster" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4693aa0a-4466-4f78-b517-aa6c34d2e841" />
+        <suppliersInternal>
+          <dependency Id="b4980d93-33cf-4fad-a77b-65f07d30bf9c">
+            <useCaseMoniker Id="13b75ea0-ad45-44fd-9e20-89b8d270eb48" LastKnownName="Play" />
+            <elementDefinition Id="2e1b774e-944c-4c53-9b11-40f076d5c195" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="91915f06-4486-48e0-9319-c04a7d9ac12d" name="Volume+" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fd6338c7-0af1-43db-9864-3a00c51c174a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8073bd43-20c2-45de-bfea-9c76427fd610" name="Volume-" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5e5b4ce6-620a-4713-86e4-f946395aa32d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1dc63039-3c2f-475f-a3c2-5417891c44b3" name="SelectMultiFiles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b6b664dc-225d-4333-847f-7d71e2809743" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b159be48-e562-4432-92d9-57c42a7749ea" name="SelectOneFile" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4b0825c2-bd83-47c9-8c64-7d9c31cbce50" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="74b313b9-51f1-4548-967d-4a2b302721cb" name="DoubleClickItem" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1bdd6330-2e76-43eb-92ac-176281707400" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1e8c7dd1-a9ca-447b-8d65-e24d4cee8af9" name="MediaPlayer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4cd44bdb-8222-4008-8ecd-8457b0d3cdd5" />
+        <additions>
+          <include Id="e499acd5-80aa-46e6-9f09-1e929b004ec4">
+            <useCaseMoniker Id="13b75ea0-ad45-44fd-9e20-89b8d270eb48" LastKnownName="Play" />
+            <elementDefinition Id="9b860a84-d2f1-4281-9c74-1e6cf14f3c16" />
+          </include>
+          <include Id="66d795f5-3a98-4068-b907-5f88d693aa51">
+            <useCaseMoniker Id="8073bd43-20c2-45de-bfea-9c76427fd610" LastKnownName="Volume-" />
+            <elementDefinition Id="c24d204a-1295-41c9-9b08-d6c5932d5911" />
+          </include>
+          <include Id="4473c655-7827-4df8-928c-d2e174ce1784">
+            <useCaseMoniker Id="91915f06-4486-48e0-9319-c04a7d9ac12d" LastKnownName="Volume+" />
+            <elementDefinition Id="9ff67d93-41aa-4d8a-9633-a8c25226f980" />
+          </include>
+          <include Id="37e5fb6e-af1f-403c-9c8c-47df103fb98e">
+            <useCaseMoniker Id="684ca2a5-161d-4009-943f-5c0d3a6ff6e6" LastKnownName="Next" />
+            <elementDefinition Id="58079698-0fe3-47b5-9ea0-95fe00951ea4" />
+          </include>
+          <include Id="6e30c1c0-2654-420e-b077-21aa9b60f5ba">
+            <useCaseMoniker Id="afcff201-1e38-4b4a-b608-94f5050f8b4c" LastKnownName="Previous" />
+            <elementDefinition Id="aa9b5712-2991-4113-ae56-5d95bd34f447" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="ff43ca7e-56fb-488b-81b1-9b44406036bb" name="ModelingMediaPlayerMD">
+    <elementDefinition Id="9f1f3854-9a00-4fdd-8220-92484f5f78b3" />
+    <profileInstances>
+      <packageHasProfileInstances Id="bc2807c3-72bb-446d-901d-eb97b0dd8e82">
+        <profileInstance Id="5b5e4dc8-5c51-4ae8-b5b4-8fdde01357fc" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="8fe8a2b4-6964-4d1c-9450-f076af5e20b1">
+        <profileInstance Id="c90f354b-2aee-4e73-93a3-2c63039c5b6b" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="faaa04bd-be50-4557-bdfa-a021ca7a24d0">
+        <profileInstance Id="53e8b8cd-13fa-4a1c-87aa-6797e8e6215f" name="TextTemplateBindings">
+          <elementDefinition Id="61ee2a1c-d4ba-43ce-b731-cc70f25198ed" />
+        </profileInstance>
+        <elementDefinition Id="7c7e00f3-ed71-4d81-a9d7-a429ba005eec" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="97e26b6b-b88e-4bd3-adc1-7ec1827b3dac">
+        <profileInstance Id="61b49ca6-3508-4e52-beab-626d20dd4b1d" name="CSharpProfile">
+          <elementDefinition Id="79411078-e7ec-46ac-af89-53b6e130c7db" />
+        </profileInstance>
+        <elementDefinition Id="9909bdac-d166-4fb1-a519-204098db2f44" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

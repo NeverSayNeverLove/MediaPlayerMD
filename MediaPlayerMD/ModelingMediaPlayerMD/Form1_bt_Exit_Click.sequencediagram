@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="f85e76dc-2da0-40cd-a0cf-704bc9c782d1" name="Form1_bt_Exit_Click" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="da213d84-57ca-489c-b44b-e298b4bf418e" name="Form1_bt_Exit_Click" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="6e02c406-9a6a-4e37-a7e1-182cfd10f850" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="d791d398-39d0-4a8e-bad9-069527eb8d9e" LastKnownName="this : Form1" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="3a6947c6-ff98-4137-aa6f-d038ae66b635" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="8dddd3c8-8a0c-47fe-aa71-c312ac6f775a" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="d47bec32-5a9a-4787-9b5e-2a1f646d74b0" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="8dddd3c8-8a0c-47fe-aa71-c312ac6f775a" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="223306da-c20e-463b-b07e-9ec811d12393" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d791d398-39d0-4a8e-bad9-069527eb8d9e" LastKnownName="this : Form1" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="e964ad1f-5b00-4e78-bd18-b0375c5366f8" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="d47bec32-5a9a-4787-9b5e-2a1f646d74b0" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="d791d398-39d0-4a8e-bad9-069527eb8d9e" LastKnownName="this : Form1" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="3a6947c6-ff98-4137-aa6f-d038ae66b635" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="a6ed446a-f6d5-4973-8097-eb74f8364823" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="d791d398-39d0-4a8e-bad9-069527eb8d9e" LastKnownName="this : Form1" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="d791d398-39d0-4a8e-bad9-069527eb8d9e" name="this : Form1" isActor="false" lifelineDisplayName="this : Form1" referencedInstance="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=Form1 ObjectInstance=&quot;Object instance 3&quot;)" referencedType="MediaPlayerMD‎.Form1">
+            <referencesInternal>
+              <reference Id="bd59f66b-9bb8-4f2b-879d-9cdd71711ce6" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MediaPlayerMD)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&amp;quot; Namespace=MediaPlayerMD Type=Form1)&quot;)" tag="DGQL" />
+              <reference Id="21c36ba1-ccb4-446a-87f9-dfed6d0795b7" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=Form1)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="8dddd3c8-8a0c-47fe-aa71-c312ac6f775a" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="3a6947c6-ff98-4137-aa6f-d038ae66b635" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="c9faa357-7987-4226-bb68-b372fe4c5693" name="bt_Exit_Click" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="707370fb-2dfc-4db3-8cb3-9171048815e4" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MediaPlayerMD)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&amp;quot; Namespace=MediaPlayerMD Type=Form1)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&amp;quot; Namespace=MediaPlayerMD Type=Form1 Member=(Name=bt_Exit_Click OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=Object),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=EventArgs)]))&quot;)" tag="DGQL" />
+              <reference Id="70df647c-ff8d-4b41-85d4-49ac04158171" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=Form1 Member=(Name=bt_Exit_Click OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=EventArgs)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="e964ad1f-5b00-4e78-bd18-b0375c5366f8" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="d47bec32-5a9a-4787-9b5e-2a1f646d74b0" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="223306da-c20e-463b-b07e-9ec811d12393" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="a6ed446a-f6d5-4973-8097-eb74f8364823" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

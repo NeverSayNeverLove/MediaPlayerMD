@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="5db0145f-091f-4d9a-8b0e-a260f50bf265" name="ClassMenuTrip_bt_ViewHelp_Click" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="c408e33d-d07c-46f0-834c-2b616fff364b" name="ClassMenuTrip_bt_ViewHelp_Click" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="28ce84ba-ead1-444c-9037-e8046ab938eb" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="5e0a4e74-5b9d-4e37-a6ee-1b3a13206ba6" LastKnownName="this : ClassMenuTrip" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="93d2a7f4-d2fa-4db1-b2d5-a3664dcbae13" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="dddeb5f2-015d-4216-9a7c-27220538478a" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="4315e031-9e79-4862-b345-85f56aa630dd" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="dddeb5f2-015d-4216-9a7c-27220538478a" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5d9df59b-4ea1-46f6-b57b-3082e59227f6" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="5e0a4e74-5b9d-4e37-a6ee-1b3a13206ba6" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="30c769db-ed55-4ff7-bd80-26f72b4d97c9" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="4315e031-9e79-4862-b345-85f56aa630dd" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="5e0a4e74-5b9d-4e37-a6ee-1b3a13206ba6" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="93d2a7f4-d2fa-4db1-b2d5-a3664dcbae13" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e0b6e6d0-d797-477a-909f-7b83a609e7f7" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="5e0a4e74-5b9d-4e37-a6ee-1b3a13206ba6" LastKnownName="this : ClassMenuTrip" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="5e0a4e74-5b9d-4e37-a6ee-1b3a13206ba6" name="this : ClassMenuTrip" isActor="false" lifelineDisplayName="this : ClassMenuTrip" referencedInstance="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=ClassMenuTrip ObjectInstance=&quot;Object instance 3&quot;)" referencedType="MediaPlayerMD‎.ClassMenuTrip">
+            <referencesInternal>
+              <reference Id="9fca5c8a-9301-444c-9a66-81eda30f2372" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MediaPlayerMD)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&amp;quot; Namespace=MediaPlayerMD Type=ClassMenuTrip)&quot;)" tag="DGQL" />
+              <reference Id="24be7d93-a966-43a0-a096-21d2e8b497a7" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=ClassMenuTrip)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="dddeb5f2-015d-4216-9a7c-27220538478a" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="93d2a7f4-d2fa-4db1-b2d5-a3664dcbae13" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="a1938430-0086-4b4b-bf15-1a170628256e" name="bt_ViewHelp_Click" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="8d3c828c-9fa2-43e0-8353-08d5c43a826a" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MediaPlayerMD)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&amp;quot; Namespace=MediaPlayerMD Type=ClassMenuTrip)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&amp;quot; Namespace=MediaPlayerMD Type=ClassMenuTrip Member=(Name=bt_ViewHelp_Click OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=Object),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&amp;quot; Namespace=System Type=EventArgs)]))&quot;)" tag="DGQL" />
+              <reference Id="e35a4e4c-8760-4e03-a5f9-54aef306aaa2" handle="(Assembly=&quot;file:///E:/C%2523/Project/Console Applications C%2523/RoundTrip/MediaPlayerMD/MediaPlayerMD/bin/Debug/MediaPlayerMD.exe&quot; Namespace=MediaPlayerMD Type=ClassMenuTrip Member=(Name=bt_ViewHelp_Click OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.5/mscorlib.dll&quot; Namespace=System Type=EventArgs)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="30c769db-ed55-4ff7-bd80-26f72b4d97c9" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="4315e031-9e79-4862-b345-85f56aa630dd" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5d9df59b-4ea1-46f6-b57b-3082e59227f6" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e0b6e6d0-d797-477a-909f-7b83a609e7f7" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

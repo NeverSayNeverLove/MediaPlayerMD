@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="fa93029a-b0fe-4234-b2a1-f8e7f16069da"
+  name="WMPLib"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="fa8ed193-2d1a-4201-be95-4e50be87cee2"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWMPLib"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="9bd1b617-bb85-4c36-9032-2b8905131a90">
+      <profileInstance
+        Id="0654cf7a-4f7b-43cb-951e-f38d25d41bf3"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="5bb6e79f-6295-4946-bfb5-07d49764f9d8"
+        name="IWMPPlaylist"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="986953eb-ae53-44e8-a861-a84a8b001389"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FE:%2FC%2523%2FProject%2FConsole Applications C%2523%2FRoundTrip%2FMediaPlayerMD%2FMediaPlayerMD%2Fbin%2FDebug%2FInterop.WMPLib.dll&quot; Namespace%3DWMPLib Type%3DIWMPPlaylist"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2c892b5c-b18f-4563-b618-af43784db49a"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="95b6ecdc-ff82-4039-b550-f8b0d09f459e">
+                <propertyInstance
+                  Id="a5ccf68a-b5ee-4d37-9ff2-d7031d6f5c00"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="797a61a4-7446-48c0-9c7e-d2fc6cf46512">
+                <propertyInstance
+                  Id="90e54246-9ec0-4445-85fc-3f8e92e5b4cb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c3c6ce57-3526-4ac6-bc20-7a04647d3f03">
+                <propertyInstance
+                  Id="8853dbfe-2741-4410-bbce-9b7c0e0c0c30"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a100faad-ae8e-4a49-8821-a7bc7a9d805d">
+                <propertyInstance
+                  Id="b7c94d46-5e3c-440f-9f0e-e0a8fd8ed71e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ece8be87-ac3d-4d83-8eb1-43f996e953ce"
+        name="IWMPMedia"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="a5b4c695-cb2d-4419-b413-10697e604f47"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FE:%2FC%2523%2FProject%2FConsole Applications C%2523%2FRoundTrip%2FMediaPlayerMD%2FMediaPlayerMD%2Fbin%2FDebug%2FInterop.WMPLib.dll&quot; Namespace%3DWMPLib Type%3DIWMPMedia"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2eaaf163-caae-46b9-ab27-acb339964876"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="98487733-55bf-4d17-a997-36941cf8ed9e">
+                <propertyInstance
+                  Id="63dd0ef7-b41a-499c-9826-8052c851eed4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="91e5da3f-0215-4eb7-b26d-0dd1ad6be709">
+                <propertyInstance
+                  Id="eca35c53-2a97-4d03-9e5e-43d8bad92060"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fe4b2e38-8713-4636-9210-c2ec148c26ef">
+                <propertyInstance
+                  Id="fd6244b3-b0c4-4e75-b33b-cfc3e1ae1e0c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="217a5b8c-79d9-4f9b-a7fd-07092523a558">
+                <propertyInstance
+                  Id="b08f1599-4f21-45d6-9daf-4d4a8f648217"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
